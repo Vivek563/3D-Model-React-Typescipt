@@ -4,9 +4,10 @@ import {
   PerspectiveCamera,
 } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 import "./App.css";
 import Vivek from "./Vivek";
+
 function App() {
   return (
     <>
