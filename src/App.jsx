@@ -15,10 +15,7 @@ function App() {
         <ambientLight intensity={1.5} />
         <OrbitControls enableZoom />
         <Suspense fallback={null}>
-          <PerspectiveCamera
-            position={[0, 20, 50]} // Set initial position of the camera
-            makeDefault // Makes this the default camera
-          />
+          <PerspectiveCamera position={[0, 20, 50]} makeDefault />
           <Vivek />
         </Suspense>
         <Environment preset="sunset" />
